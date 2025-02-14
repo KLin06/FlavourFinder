@@ -1,0 +1,9 @@
+milk
+egg
+fish
+shellfish
+nut
+peanut
+wheat
+soy
+
