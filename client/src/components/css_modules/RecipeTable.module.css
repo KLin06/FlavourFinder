@@ -1,0 +1,69 @@
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+tbody {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 1200px) {
+  #scrollTable {
+    overflow-y: scroll;
+  }
+}
+
+.tableRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 6px;
+  text-wrap: wrap;
+  gap: 15px;
+}
+
+.recipeCol {
+  flex: 4;
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.recipeCol:hover {
+  text-decoration: underline;
+}
+
+.ingredientCol {
+  flex: 8;
+  text-align: left;
+}
+
+.imgCol {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  justify-self: right;
+  padding-right: 10px;
+}
+
+.imgCol:hover {
+  cursor: pointer;
+}
+
+#recipeTable {
+  margin-top: 3%;
+  display: block;
+  align-self: center;
+  width: 80%;
+  background-color: #1e1e1e;
+}
+
+#scrollTable {
+  display: block;
+  max-height: 65vh;
+  overflow-y: auto;
+  width: 100%;
+}

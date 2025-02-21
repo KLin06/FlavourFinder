@@ -1,0 +1,45 @@
+#root {
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+button {
+  height: 40px;
+  text-wrap: nowrap;
+}
+
+img {
+  width: 18px;
+  height: 18px;
+}
+
+h3 {
+  white-space: nowrap;
+}
+
+.body {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f1214;
+  padding: 5px;
+  height: 100vh;
+}
+
+.primary {
+  background-color: #0958d9;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.ant-pagination-prev .anticon,
+.ant-pagination-next .anticon {
+  color: white; /* Change arrow color to white */
+}
+

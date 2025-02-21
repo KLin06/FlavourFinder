@@ -1,0 +1,13 @@
+#recipeDisplay {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    border:solid;
+    max-width: 70vw;
+    width: auto;
+    padding: 5px;
+    gap: 12px;
+    border-radius: 15px;
+    background-color:  #11171D;
+  }

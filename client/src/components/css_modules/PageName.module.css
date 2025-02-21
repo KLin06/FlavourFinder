@@ -1,0 +1,13 @@
+h1 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+}
+
+.pageName {
+    position: relative; /* Ensures it stays within normal flow */
+    top: 30px; /* Adjust this value for a consistent distance */
+    margin-bottom: 40px; /* Alternative approach */
+    text-align: center; /* Centers the title */
+}
+
+

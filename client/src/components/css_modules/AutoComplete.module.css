@@ -1,0 +1,19 @@
+#searchBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 10px;
+  width: 40vw;
+}
+
+/* Style the input field */
+input {
+  width: 60%;
+  height: 25px;
+  background: #1e1e1e;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
